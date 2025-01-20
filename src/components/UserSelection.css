@@ -1,0 +1,46 @@
+.user-selection {
+    flex: 1;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .options {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    background-color: #2e2e4f;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #3e3e5f;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+  
+  h4 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  

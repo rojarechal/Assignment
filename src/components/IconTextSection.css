@@ -1,0 +1,42 @@
+.icon-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px;
+    margin: 5px;
+  }
+  
+  .heading h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .body-text {
+    font-size: 1rem;
+    color: #555;
+    text-align: center; /* Center the body text */
+    margin-top: 10px; /* Optional: Adds space between the heading and body text */
+  }
+  

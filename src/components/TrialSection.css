@@ -1,0 +1,50 @@
+.trial-section {
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+  }
+  
+  .trial-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .trial-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .learn-more, .get-started {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more {
+    background-color: #6c757d; /* Gray */
+    color: white;
+  }
+  
+  .learn-more:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+  }
+  
+  .get-started {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .get-started:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

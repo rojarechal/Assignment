@@ -1,0 +1,25 @@
+.text-container {
+    position: fixed;
+    top: 20%;  /* Adjust this value to move the text lower or higher */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 0 20px;  /* Optional padding */
+  }
+  
+  .text-container h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .text-container h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .text-container p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0.5rem auto;
+  }
+  
